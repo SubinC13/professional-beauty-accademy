@@ -12,8 +12,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "TONI&GUY Academy - Professional Hairdressing Training",
-  description: "Industry-recognized hairdressing training in just 12 or 18 weeks. Launch your global hairdressing career with TONI&GUY Academy.",
+  title: "The Professional Beauty Academy - Expert Beauty & Hair Training",
+  description: "Industry-recognized beauty and hairdressing training in just 12 or 18 weeks. Launch your global beauty career with The Professional Beauty Academy.",
 };
 
 export default function RootLayout({ children }) {

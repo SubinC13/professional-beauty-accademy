@@ -6,8 +6,8 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <div className="text-2xl font-bold text-black mb-4">
-              <div>TONI&GUY</div>
-              <div className="text-sm font-normal">ACADEMY</div>
+              <div className="font-serif">The Professional</div>
+              <div className="text-sm font-normal">Beauty Academy</div>
             </div>
           </div>
 
