@@ -40,8 +40,7 @@ export default function EnrollmentForm() {
           name: '',
           email: '',
           phone: '',
-          duration: '',
-          careerPath: ''
+          course: '',
         });
         setTimeout(() => setSubmitStatus(null), 5000);
       } else {
@@ -134,7 +133,7 @@ export default function EnrollmentForm() {
                   <div className="relative">
                     <select 
                       name="course"
-                      value={formData.duration}
+                      value={formData.course} 
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent bg-white appearance-none pr-10"
                       required
