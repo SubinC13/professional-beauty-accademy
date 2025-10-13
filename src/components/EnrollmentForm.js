@@ -138,12 +138,12 @@ export default function EnrollmentForm() {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent bg-white appearance-none pr-10"
                       required
                     >
-                      <option value="">Basic beautician Course</option>
-                      <option value="12-weeks">Advanced beautician Course</option>
-                      <option value="18-weeks">Diploma beautician Course</option>
-                      <option value="2-weeks">Mehandi Course</option>
-                      <option value="beautician-18-weeks">Tattoo Course</option>
-                      <option value="nail-art-12-weeks">Nail Art Course</option>
+                      <option value="Basic beautician Course">Basic beautician Course</option>
+                      <option value="Advanced beautician Course">Advanced beautician Course</option>
+                      <option value="Diploma beautician Course">Diploma beautician Course</option>
+                      <option value="Mehandi Course">Mehandi Course</option>
+                      <option value="Tattoo Course">Tattoo Course</option>
+                      <option value="Nail Art Course">Nail Art Course</option>
                     </select>
                     <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                       <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
