@@ -1,13 +1,11 @@
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-console.log("Ressenf ==>", resend, process.env.RESEND_API_KEY);
-
 
 export async function POST(request) {
   try {
     const formData = await request.json();
-    const { name, email, phone, duration, careerPath } = formData;
+    const { name, email, phone, course } = formData;
 
     const { data, error } = await resend.emails.send({
       from: 'Professional Beauty Academy <onboarding@resend.dev>',
@@ -77,12 +75,8 @@ export async function POST(request) {
                   <span class="value">${phone}</span>
                 </div>
                 <div class="field">
-                  <span class="label">Course Duration:</span>
-                  <span class="value">${duration}</span>
-                </div>
-                <div class="field">
-                  <span class="label">Career Path:</span>
-                  <span class="value">${careerPath}</span>
+                  <span class="label">Course:</span>
+                  <span class="value">${course}</span>
                 </div>
               </div>
             </div>
