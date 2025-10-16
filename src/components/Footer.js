@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-black font-bold mb-4 uppercase">PHONE</h3>
-            <p className="text-gray-600">98 2990 6943</p>
+            <p className="text-gray-600">+91 7708818993</p>
             
             <h3 className="text-black font-bold mb-4 mt-8 uppercase">ACADEMY TIMINGS</h3>
             <div className="text-gray-600 space-y-1">

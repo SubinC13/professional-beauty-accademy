@@ -14,10 +14,10 @@ export default function AboutUs() {
   };
 
   const toniData = {
-    name: "TONI MASCOLO",
-    title: "CEO and co-founder of TONI&GUY",
-    description: "Toni Mascolo was a visionary leader who transformed the hairdressing industry with his innovative approach and dedication to excellence. As CEO and co-founder of TONI&GUY, he played a pivotal role in establishing the brand as a global leader in hairdressing education and salon operations. His commitment to nurturing talent and sharing knowledge led to the creation of comprehensive training programs that have shaped thousands of careers worldwide. Toni's legacy includes prestigious recognition and his Fellowship of British Hairdressers, cementing his place as one of the most influential figures in the hairdressing industry.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    name: "Priya Jayakumar",
+    title: "CEO and co-founder of The Professional Beauty Academy",
+    description: "Welcome to The Professional Beauty Academy, a premier institution with over 15 years of excellence in beauty education. Founded by the accomplished beauty expert Priya Jayakumar, our academy is dedicated to empowering individuals with the skills and confidence needed to excel in the dynamic beauty industry. We offer a comprehensive range of courses, including Skin Care, Beauty Treatments, Hair Styling, Grooming, Make-Up Artistry, Mehndi, Nail Art, Tattoos, Hair Dressing, and Advanced Bridal Make-Up. With a hands-on training approach, state-of-the-art facilities, and personalized guidance, we ensure our students are industry-ready and equipped to build successful careers. At The Professional Beauty Academy, we don’t just teach beauty – we inspire creativity, professionalism, and passion. Let us help you turn your dreams into reality and embark on a fulfilling journey in the world of beauty.",
+    image: "https://ik.imagekit.io/hbyj63led/founder-image_hCmFJanew?updatedAt=1760627458218",
     reverse: false
   };
 

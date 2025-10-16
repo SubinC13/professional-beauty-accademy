@@ -20,7 +20,7 @@ export default function BiographySection({
               <img
                 src={image}
                 alt={name}
-                className="w-full h-96 md:h-[500px] object-cover hover:scale-105 transition-transform duration-500"
+                className="w-full h-100 md:h-[700px] object-cover hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
