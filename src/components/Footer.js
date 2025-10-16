@@ -15,7 +15,7 @@ export default function Footer() {
           <div>
             <h3 className="text-black font-bold mb-4 uppercase">ADDRESS</h3>
             <p className="text-gray-600">
-              Gandhimanagar, Coimbatore<br />
+              Coimbatore<br />
               {/* Part 2, M Block Market<br />
               Delhi, India */}
             </p>
