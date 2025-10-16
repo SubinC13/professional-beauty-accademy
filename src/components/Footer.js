@@ -15,9 +15,9 @@ export default function Footer() {
           <div>
             <h3 className="text-black font-bold mb-4 uppercase">ADDRESS</h3>
             <p className="text-gray-600">
-              M-11, 3rd Floor, Greater Kailash,<br />
-              Part 2, M Block Market<br />
-              Delhi, India
+              Gandhimanagar, Coimbatore<br />
+              {/* Part 2, M Block Market<br />
+              Delhi, India */}
             </p>
           </div>
 
@@ -28,11 +28,11 @@ export default function Footer() {
             
             <h3 className="text-black font-bold mb-4 mt-8 uppercase">ACADEMY TIMINGS</h3>
             <div className="text-gray-600 space-y-1">
-              <div>Mon - 10:00 AM - 5:30 PM</div>
-              <div>Tue - 10:00 AM - 5:30 PM</div>
-              <div>Wed - 10:00 AM - 5:30 PM</div>
-              <div>Thu - 10:00 AM - 5:30 PM</div>
-              <div>Fri - 10:00 AM - 5:30 PM</div>
+              <div>Mon - 09:00 AM - 06:00 PM</div>
+              <div>Tue - 09:00 AM - 06:00 PM</div>
+              <div>Wed - 09:00 AM - 06:00 PM</div>
+              <div>Thu - 09:00 AM - 06:00 PM</div>
+              <div>Fri - 09:00 AM - 06:00 PM</div>
             </div>
           </div>
 
@@ -42,13 +42,13 @@ export default function Footer() {
             <div className="space-y-2 text-gray-600">
               <div><a href="#courses" className="hover:text-black transition-colors">OUR COURSES</a></div>
               <div className="ml-4 space-y-1">
-                <div><a href="#" className="hover:text-black transition-colors">WHATSAPP</a></div>
+                <div><a href="https://api.whatsapp.com/send?phone=917708818993" className="hover:text-black transition-colors">WHATSAPP</a></div>
                 <div><a href="#" className="hover:text-black transition-colors">FACEBOOK</a></div>
-                <div><a href="#" className="hover:text-black transition-colors">INSTAGRAM</a></div>
+                <div><a href="https://www.instagram.com/professionalbeautyacademycbe?igsh=MWtrNmpoMjdyMmhvaw==" className="hover:text-black transition-colors">INSTAGRAM</a></div>
               </div>
               <div className="ml-4 space-y-1">
-                <div><a href="#about" className="hover:text-black transition-colors">ABOUT US</a></div>
-                <div><a href="#" className="hover:text-black transition-colors">PRIVACY POLICY</a></div>
+                <div><a href="/about" className="hover:text-black transition-colors">ABOUT US</a></div>
+                {/* <div><a href="#" className="hover:text-black transition-colors">PRIVACY POLICY</a></div> */}
               </div>
             </div>
           </div>
