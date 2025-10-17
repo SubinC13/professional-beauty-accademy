@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
@@ -33,14 +34,32 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
-          <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold text-black hover:opacity-80 transition-opacity">
-              <div className='font-serif font-bold'>The Professional</div>
-              <div className="text-sm font-normal">Beauty Academy</div>
-            </a>
+          <div className="flex items-center gap-1">
+            {/* Logo */}
+            <div className="flex items-center">
+              <Image
+                src="https://ik.imagekit.io/hbyj63led/Gemini_Generated_Image_1es3qy1es3qy1es3.png?updatedAt=1760686038384"
+                alt="Professional Beauty Academy Logo"
+                width={60}
+                height={60}
+                className="object-contain"
+              />
+            </div>
+
+            {/* Divider */}
+            <div className="h-12 w-px bg-gray-400 mx-2"></div>
+
+            {/* Text */}
+            <div className="flex flex-col leading-tight">
+              <div className="font-serif font-bold lg:text-[30px] lg:tracking-[3px] sm:tracking-[2px] sm:text-[20px] md:text-lg text-gray-900">
+                The Professional
+                <br className="block lg:hidden" /> {/* 👈 visible only on small/medium screens */}
+                <span className="lg:ml-2">Beauty Academy</span>
+              </div>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
