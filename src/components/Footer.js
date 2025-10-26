@@ -38,13 +38,6 @@ export default function Footer() {
               {/* Part 2, M Block Market<br />
               Delhi, India */}
             </p>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="text-black font-bold mb-4 uppercase">PHONE</h3>
-            <p className="text-gray-600">+91 7708818993</p>
-
             <h3 className="text-black font-bold mb-4 mt-8 uppercase">
               ACADEMY TIMINGS
             </h3>
@@ -57,20 +50,28 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Contact */}
+          <div>
+            <h3 className="text-black font-bold mb-4 uppercase">PHONE</h3>
+            <p className="text-gray-600">+91 7708818993</p>
+            <h3 className="text-black font-bold mb-4 mt-8 uppercase">EMAIl</h3>
+            <p className="text-gray-600">theprofessionalacademycbe@gamil.com</p>
+          </div>
+
           {/* Links */}
           <div>
             <h3 className="text-black font-bold mb-4 uppercase">ACADEMY</h3>
             <div className="space-y-2 text-gray-600">
               <div>
                 <a
-                  href="#courses"
+                  href="/beautician"
                   className="hover:text-black transition-colors"
                 >
                   OUR COURSES
                 </a>
               </div>
-              <div className="ml-4 space-y-1">
-                <div>
+              <div className="space-y-1">
+                <div className="pt-2">
                   <a
                     href="https://api.whatsapp.com/send?phone=917708818993"
                     className="hover:text-black transition-colors"
@@ -78,12 +79,12 @@ export default function Footer() {
                     WHATSAPP
                   </a>
                 </div>
-                <div>
+                {/* <div>
                   <a href="#" className="hover:text-black transition-colors">
                     FACEBOOK
                   </a>
-                </div>
-                <div>
+                </div> */}
+                <div className="pt-2">
                   <a
                     href="https://www.instagram.com/professionalbeautyacademycbe?igsh=MWtrNmpoMjdyMmhvaw=="
                     className="hover:text-black transition-colors"
@@ -92,7 +93,7 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="ml-4 space-y-1">
+              <div className="space-y-1">
                 <div>
                   <a
                     href="/about"
