@@ -54,8 +54,9 @@ export default function Footer() {
           <div>
             <h3 className="text-black font-bold mb-4 uppercase">PHONE</h3>
             <p className="text-gray-600">+91 7708818993</p>
-            <h3 className="text-black font-bold mb-4 mt-8 uppercase">EMAIl</h3>
-            <p className="text-gray-600">theprofessionalacademycbe@gamil.com</p>
+            <p className="text-gray-600">+91 7871888993</p>
+            <h3 className="text-black font-bold mb-4 mt-8 uppercase">EMAIL</h3>
+            <p className="text-gray-600">theprofessionalacademycbe@gmail.com</p>
           </div>
 
           {/* Links */}
